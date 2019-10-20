@@ -17,9 +17,20 @@ mouse = Controller()
 
 mouse.position = (1024/2,1080/2)
 
-greenLower = (29, 86, 6)
+#greenLower = (29, 86, 6)
 
-greenUpper = (64, 255, 255)
+#greenUpper = (64, 255, 255)
+
+#lower_red = np.array([160,20,70])
+#upper_red = np.array([190,255,255])
+
+greenLower = (101,50,38)
+greenUpper = (110,255,255)
+
+#lower_blue = np.array([101,50,38])
+#upper_blue = np.array([110,255,255])
+
+
 
 pts = deque(maxlen=64)
 
@@ -61,9 +72,9 @@ while True:
             # if radius is good enough , then draw circle around it till its visible
 			mouse.position = (x*4, y*2)
             # move the mouse respect to the x , y multipy it by screen ratio and also respect to its tracking window size
-			cv2.circle(frame, (int(x), int(y)), int(radius),
-            # drawing circles till the contour is visible
- 				(0, 255, 255), 2)
+			# cv2.circle(frame, (int(x), int(y)), int(radius),
+   #          # drawing circles till the contour is visible
+ 		# 		(0, 255, 255), 2)
 
 			cv2.circle(frame, center, 5, (0, 0, 255), -1)
 
