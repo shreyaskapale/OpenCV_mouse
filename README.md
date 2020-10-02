@@ -8,7 +8,7 @@ OpenCv-mouse is virtual mouse which follows your finger movement using opencv ob
             - imutils
 ### Hardware : 
             - webcam
-            - And you also need a small green dot like paper or a green thermocol ball sticked on your finger 
+            - And you also need a small green dot like  on paper or a green thermocol ball sticked on your finger 
 
 #### usage :
 `$  python Openmouse.py`
