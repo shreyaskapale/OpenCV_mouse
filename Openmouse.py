@@ -1,5 +1,5 @@
 
-# Developer shreyas kapale
+# Developer: Shreyas Kapale
 
 
 import cv2
@@ -88,5 +88,5 @@ while True:
 		break
 
 
-camera.release()
+cam.release()
 cv2.destroyAllWindows()
